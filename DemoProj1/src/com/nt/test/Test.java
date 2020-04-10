@@ -1,8 +1,14 @@
 package com.nt.test;
 
+import com.nt.beans.Utility;
+
 public class Test {
-	public void m1()
-	{
-		System.out.println("hello");
+	public static void main(String[] args) {
+		
+	
+		Utility u = new Utility();
+			
+			System.out.println(u.getSysDate());
+			
 	}
 }
